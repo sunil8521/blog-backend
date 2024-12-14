@@ -6,9 +6,9 @@ export const CookieOption = {
   httpOnly: true,
   sameSite: "None",
   secure: true,
-  domain: ".onrender.com",
+  // domain: ".onrender.com",
   path: "/",
-  
+
 };
 
 const tokenSender = (id) => {
