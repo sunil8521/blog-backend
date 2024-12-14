@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://goss-app.netlify.app"],
+    origin: ["http://localhost:5173","https://blog-frontend-338n.onrender.com"],
     credentials: true,
   })
 );
