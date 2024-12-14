@@ -6,6 +6,7 @@ export const CookieOption = {
   httpOnly: true,
   sameSite: "Lax",
   secure: true,
+  domain: ".onrender.com",
   
 };
 
