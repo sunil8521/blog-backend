@@ -4,7 +4,7 @@ import "dotenv/config"
 export const CookieOption = {
   maxAge: 24 * 60 * 60 * 1000,
   httpOnly: true,
-  sameSite: "Lax",
+  sameSite: "None",
   secure: true,
   domain: ".onrender.com",
   
