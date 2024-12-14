@@ -7,6 +7,7 @@ export const CookieOption = {
   sameSite: "None",
   secure: true,
   domain: ".onrender.com",
+  path: "/",
   
 };
 
