@@ -6,7 +6,7 @@ export const CookieOption = {
   httpOnly: true,
   sameSite: "None",
   secure: true,
-  // domain: ".onrender.com",
+  Domain: ".onrender.com",
   path: "/",
 
 };
