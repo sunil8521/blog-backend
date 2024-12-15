@@ -4,11 +4,10 @@ import "dotenv/config"
 export const CookieOption = {
   maxAge: 24 * 60 * 60 * 1000,
   httpOnly: true,
-  sameSite: "None",
+  sameSite: "Lax",
   secure: true,
   Domain: ".onrender.com",
-  path: "/",
-
+  // path: "/",
 };
 
 const tokenSender = (id) => {
